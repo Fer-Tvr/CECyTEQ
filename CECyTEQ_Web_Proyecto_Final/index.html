@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECyTEQ Pedro Escobedo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <img src="IMG/logo_CECY.png" alt="Logo CECyTEQ" class="logo" width="40%">
+        <h1>CECyTEQ Pedro Escobedo</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">¿Quiénes Somos?</a></li>
+                <li><a href="#oferta">Oferta Académica</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos al CECyTEQ NO. 83 Plantel Pedro Escobedo</h2>
+            <p>Formamos profesionistas técnicos con valores, habilidades y competencias para afrontar los retos del presente y futuro.</p>
+            <p>Nuestra institución es reconocida por su calidad académica, compromiso social y participación en eventos tecnológicos y culturales.</p>
+            <div class="image-placeholder">
+                <img src="IMG/plantel 83.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="quienes-somos">
+            <h2>¿Quiénes Somos?</h2>
+            <p>CECyTEQ NO. 83 Plantel Pedro Escobedo, ubicado en Querétaro, formamos parte del Colegio de Estudios Científicos y Tecnológicos del Estado.</p>
+            <p><strong>Misión:</strong> Nustra misión es ofrecer una educación media superior de calidad y con un enfoque tecnológico.</p>
+            <p><strong>Visión:</strong> Ser líderes en formación técnica de nivel medio superior a nivel nacional.</p>
+            <p><strong>Valores:</strong> La honestidad, responsabilidad, respeto y el trabajo en equipo.</p>
+        </section>
+
+        <section id="oferta">
+            <h2>Oferta Académica</h2>
+            <ul>
+                <li>Bachillerato Técnico en Programación</li>
+                <li>Bachillerato Técnico en Electricidad</li>
+                <li>Bachillerato Técnico en Mantenimiento</li>
+                <li>Bachillerato Técnico en Logistica</li>
+                <li>Bachillerato Técnico en Gestión Administrativa</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <p>Explora nuestras instalaciones y actividades a través de imágenes representativas del entorno escolar.</p>
+            <div class="image-placeholder1">
+                <img src="IMG/instalaciones1.jpg" alt="">
+                <img src="IMG/instalaciones2.jpg" alt="">
+                <img src="IMG/instalaciones3.jpg" alt="">
+                <img src="IMG/instalaciones5.jpg" alt="">
+                <img src="IMG/instalaciones6.jpg" alt="">
+                <img src="IMG/instalaciones7.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="noticias">
+            <h2>Noticias y Eventos</h2>
+            <article>
+                <h3>Semana de Ciencia y Tecnología</h3>
+                <p>Del 20 al 24 de mayo se llevarán a cabo talleres, conferencias y exposiciones con participación estudiantil.</p>
+                <br>
+                <h3>Nuestras selecciones y Eventos deportivos</h3>
+                <table>
+                    <th><h3>Nuestras selecciones deportivas</h3>
+                        <img id="panters" onclick="document.getElementById('panters').style.display='none'" width="450px" height="300px" src="IMG/Panteras.jpg" alt=""></th>
+                    <th>
+                        <h3>Festival Academico</h3>
+                        <a href="Evento Academico.html" target="frame"><img id="Eventaca" onclick="document.getElementById('Eventaca').style.display='none'" width="450px" height="300px" src="IMG/Festival academico.jpg" alt=""></a>
+                    </th>
+                    <th>
+                        <h3>Nuestros Eventos Exclusivos</h3>
+                        <a href="Eventos.html" target="frame"><img id="Evenex" onclick="document.getElementById('Evenex').style.display='none'" width="450px" height="300px" src="IMG/plantel 83.jpg" alt=""></a>
+                    </th>
+                </table>
+                <table id="Selection" style="display: none;">
+                    <tr>
+                        <th>    
+                            <p><i>Seleccion varonil de basquetbal</i></p>
+                            <a id="basqv" href="Selecciones/basquetmasculino.html" target="frame"><img  onclick="document.getElementById('basqv').style.display='none'" src="IMG/Seleccion de basquetbol.jpg" width="350px" alt=""></a>
+                        </th>
+                        <th>
+                            <p><i>Seleccion Femenil de basquetbal</i></p>
+                            <a id="basqf" href="Selecciones/basquetfemenino.html" target="frame"><img onclick="document.getElementById('basqf').style.display='none'" src="IMG/Seleccion de basquetbol femenil.jpg" width="350px" alt=""></a>
+                        </th>
+                        <th>
+                            <p><i>Seleccion varonil de futbol</i></p>
+                            <a id="futv" href="Selecciones/futmasculino.html" target="frame"><img onclick="document.getElementById('futv').style.display='none'" src="IMG/Seleccion de futbol.jpg" width="350px" alt=""></a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                                <p><i>Seleccion femenil de futbol</i></p>
+                                <a id="futf" href="Selecciones/futfemenino.html" target="frame"><img onclick="document.getElementById('futf').style.display='none'" src="IMG/Seleccion de futbol femenil.jpg" width="350px" alt=""></a>
+                            <th>
+                                <p><i>Seleccion varonil de voleibol</i></p>
+                                <a id="volim" href="Selecciones/volimasculino.html" target="frame"><img onclick="document.getElementById('volim').style.display='none'" src="IMG/Seleccion de voleibol.jpg" width="350px" alt=""></a>
+                            </th>
+                        </td>
+                    </tr>
+                </table>   
+                <div id="iframeeven" style="display: none;" >
+                    <iframe name="frame" src="" frameborder="1"></iframe>
+                </div>
+            </article>
+        </section>
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <blockquote>“Una experiencia transformadora, aquí aprendí lo que necesitaba para entrar al mundo profesional.” – Egresado 2023</blockquote>
+            <blockquote>“Los maestros siempre están disponibles para apoyar. Me encanta el ambiente de la escuela.” – Estudiante</blockquote>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label>Nombre: <input type="text" name="nombre"></label><br>
+                <label>Correo electrónico: <input type="email" name="correo"></label><br>
+                <label>Mensaje:<br><textarea name="mensaje" rows="4"></textarea></label><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <p><strong>Dirección:</strong> CECyTEQ Plantel 83, Pedro Escobedo, Querétaro<br></p>
+            <p><strong>Horario:</strong> Lunes a Viernes, 8:00 AM a 3:00 PM</p>
+            <div class="image-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.3450224855515!2d-100.14994742608286!3d20.492077805997813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d36c3cefffffff%3A0x3b0bc919b2418b87!2sCECYTEQ!5e0!3m2!1ses-419!2smx!4v1748233183104!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/share/16TTso8Cjd/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/cecytequeretaro?igsh=c3Q4MHl0ZTlwbjVw">Instagram</a></li>
+        </ul>
+        <p>&copy; 2025 CECyTEQ Pedro Escobedo</p>
+    </footer>
+    <script src="Js/Pagina principal.js"></script>
+</body>
+</html>

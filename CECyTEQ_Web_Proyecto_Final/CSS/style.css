@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(to right, rgb(49, 174, 31), rgba(239, 73, 20 ));
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #004d33;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.image-placeholder {
+    height: 200px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: #666;
+    width: 100%;
+  max-width: 800px; /* Puedes ajustarlo como necesites */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Opcional: para bordes redondeados */
+  }
+
+  .image-placeholder1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .image-placeholder1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+
+form input, form textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #fa5a1b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(49, 174, 31), rgba(239, 73, 20 ));
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+iframe
+{
+    width: 100%;
+    height: 500px;
+}
